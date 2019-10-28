@@ -262,6 +262,7 @@ class _CallPageState extends State<CallPage> {
   }
 
   void _onCallEnd(BuildContext context) {
+    print("Please rate the call");
     Navigator.pop(context);
   }
 
